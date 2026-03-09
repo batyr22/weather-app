@@ -35,7 +35,7 @@ const stars = ref([]);
 const generateStars = () => {
   const colors = ['#ffffff', '#fff4ea', '#eaf4ff']; 
   const tempStars = [];
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 500; i++) {
     const isLarge = Math.random() > 0.7;
     const size = isLarge ? '3px' : '1.5px';
     const color = colors[Math.floor(Math.random() * colors.length)];
